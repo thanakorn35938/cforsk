@@ -5,7 +5,7 @@ This section of cforsk repositories is used to store first assignment data. Most
 
 
 
-## Corrected Corrected
+## Corrected Files
  - SCi31121As1CorAs1.1.c
 
 
@@ -19,8 +19,8 @@ This section of cforsk repositories is used to store first assignment data. Most
 This repositories is a part of key to all assignment in SCi31121 Integrated Programming Class taught at Suankularb Wittayalai School.
 
 
-Credited to
-- Prof.Something
+## Credited to
+- Master Charawit Promjan
 - [@thanakorn35938](https://www.github.com/thanakorn35938)
 
 
