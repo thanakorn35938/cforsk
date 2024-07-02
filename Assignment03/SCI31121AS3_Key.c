@@ -16,6 +16,6 @@ int main() {
 
     /*Program Ended*/
     printf("Program Ended\n");
-    print("This program is eritten by Thanakorn Buathongtanakarn. Press any key to exit.\n")
+    print("This program is eritten by Thanakorn Buathongtanakarn. Press any key to exit.\n");
 
 }
