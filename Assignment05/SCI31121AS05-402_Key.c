@@ -2,7 +2,7 @@
 
 int main() {
     float height1, height2, height3, height4, height5;
-    float shortest;
+    int shortest;
 
     printf("Enter the height of person 1: ");
     scanf("%f", &height1);
@@ -30,7 +30,7 @@ int main() {
         shortest = height5;
     }
 
-    printf("The shortest person has a height of %.2f\n", shortest);
+    printf("The shortest person has a height of %d\n", shortest);
 
     return 0;
 }
