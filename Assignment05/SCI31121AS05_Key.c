@@ -2,7 +2,6 @@
 
 int main() {
     int choice;
-    const float pi = 3.14;
     printf("1. Circle\n");
     printf("2. Triangle\n");
     printf("3. Square\n");
@@ -11,24 +10,24 @@ int main() {
 
     switch (choice) {
         case 1: {
-            int radius;
+            float radius;
             printf("Enter radius: ");
-            scanf("%d", &radius);
+            scanf("%f", &radius);
             printf("Area of circle: %.2f\n", 3.14 * radius * radius);
             break;
         }
         case 2: {
-            int base, height;
+            float base, height;
             printf("Enter base and height of triangle: ");
-            scanf("%d %d", &base, &height);
+            scanf("%f %f", &base, &height);
             printf("Area of triangle: %.2f\n", 0.5 * base * height);
             break;
         }
         case 3: {
-            int length;
+            float length, width;
             printf("Enter length of square: ");
-            scanf("%d", &length);
-            printf("Area of square: %.2f\n", (float)(length * length));
+            scanf("%f %f", &length, &width);
+            printf("Area of square: %.2f\n", (float)(length * width));
             break;
         }
         default:
