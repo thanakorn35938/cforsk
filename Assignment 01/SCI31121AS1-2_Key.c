@@ -1,4 +1,5 @@
 #include <stdio.h>
+//Main function
 int main() {
     //input
     float price;
@@ -10,8 +11,18 @@ int main() {
 
     //Processing
     float priceWithoutVat = price / options;
+    loop(10);
 
     //Output Handle Ex
     printf("The price without vat is: %.2f", priceWithoutVat);
 
+}
+
+//User-Defined Function - มี หรือ ไม่มีก็ได้
+void loop(int i) {
+    int i = 0;
+    while (i < 10) {
+        printf("Hello World\n");
+        i++;
+    }
 }
