@@ -6,8 +6,6 @@ The "C for SK" repository is a dedicated space for storing and managing C langua
 Currently, this repository is storing data for the following assignments:
 
 - Assignment 01
-  - The Coins Problem
-  - The Detax Problem
   - Files:
     - `SCI31121AS1-1_Key.c`
     - `SCI31121AS1-2_Key.c`
