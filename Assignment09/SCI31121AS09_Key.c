@@ -1,14 +1,9 @@
 #include <stdio.h>
 
-float circle_area(float radius){
-    return 3.14159 * radius * radius;
-}
-float triangle_area(float base, float height){
-    return 0.5 * base * height;
-}
-float rectangle_area(float width, float height){
-    return width * height;
-}
+// Function prototypes
+float circle_area(float radius);
+float triangle_area(float base, float height);
+float rectangle_area(float width, float height);
 
 int main (){
     int choice;
@@ -40,5 +35,18 @@ int main (){
     return 0;
 }
 
-//Written by Thanakorn Buathongtanakarn
-//Sponsored by GitHub Corporation, Microsoft Corporation.
+// Function definitions
+float circle_area(float radius){
+    return 3.14159 * radius * radius;
+}
+
+float triangle_area(float base, float height){
+    return 0.5 * base * height;
+}
+
+float rectangle_area(float width, float height){
+    return width * height;
+}
+
+// Written by Thanakorn Buathongtanakarn
+// Sponsored by GitHub Corporation, Microsoft Corporation.
