@@ -26,3 +26,14 @@ void loop(int i) {
         i++;
     }
 }
+
+/**
+ * @brief 
+ * It takes two integers as parameters and returns the result of the calculation.
+ *
+ * @param num1 The first integer value.
+ * @param num2 The second integer value.
+ * @return The result of the calculation.
+ */
+ * 
+ */ This function performs a calculation based on the given input values.

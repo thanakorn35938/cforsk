@@ -19,3 +19,17 @@ int main() {
     printf("1 coins: %d\n", one);
     return 0;
 }
+
+/**
+ * @brief 
+ * It takes two integers as input and returns the result of the calculation.
+ *
+ * @param num1 The first integer input for the calculation.
+ * @param num2 The second integer input for the calculation.
+ * @return The result of the calculation.
+ *
+ *  * 
+ * This function performs a calculation based on the given input parameters. 
+ **/
+
+//This program is created by Thanakorn Buathongtanakarn.
